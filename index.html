@@ -42,4 +42,32 @@ body {
 
 
 <br>
-
+<P ALIGN="CENTER">
+  <center> <h1>FEEDBACK FORM</h1></center>
+</P>
+<Form methhod = post >
+<p>Person's Name:
+    <input type = "text" name = "person's name" size = "40" maxlenght = "40">
+    <input type = "hidden" name = "recipient" size = "40" maxlenght = "40">
+</p>
+<p>Password:
+    <input type = "password" name = "password" size = "10" maxlenght = "10">
+</p>
+<p>What Country do you live in ?
+  <select name = "country">
+      <option value = "ind">India
+      <option value = "usa">USA
+      <option value = "ca">Canada
+      <option value = "fr">France
+      <option value = "spr">Singapore
+   </select>
+</p>
+<p>Comment: <br>
+    <textarea rows="5" cols="50" name="comments">Write your feedback.
+    </textarea>
+</p>
+  <p>
+     <input type = "submit" name = "request" value ="Submit">
+     <input type = "reset" name = "clear" value ="Clear form & Start over">
+  </p>
+</Form>
